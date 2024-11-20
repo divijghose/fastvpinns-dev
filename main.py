@@ -19,7 +19,9 @@ import argparse
 from fastvpinns.Geometry.geometry_2d import Geometry_2D
 from fastvpinns.FE.fespace2d import Fespace2D
 from fastvpinns.data.datahandler2d import DataHandler2D
+
 from fastvpinns.model.model import DenseModel
+
 from fastvpinns.physics.poisson2d import pde_loss_poisson
 from fastvpinns.utils.plot_utils import plot_contour, plot_loss_function, plot_test_loss_function
 from fastvpinns.utils.compute_utils import compute_errors_combined
